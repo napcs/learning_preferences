@@ -91,3 +91,27 @@ Then it displays the cards into two piles.
    | +--------+ +--------+ |  | +--------+ +--------+ |
    +-----------------------+  +-----------------------+
 ~~~
+
+## Setup
+
+This uses React and some plain JavaScript.
+
+Run
+
+`npm install` 
+
+to get the project dependencies installed.
+
+Copy the `js/data/cards.js.example` file to `js/data/cards.js` and add your own activities.
+
+```
+$ cp `js/data/cards.js.example js/data/cards.js
+```
+
+To build the app, run the command `webpack` to build the JavaScript code.
+
+Then open `index.html` in your browser.
+
+## License
+
+Pending.
