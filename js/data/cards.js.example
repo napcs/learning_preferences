@@ -1,0 +1,12 @@
+var data = [
+  {"text": "Conduct skills practices.", "type": "kinesthetic" },
+  {"text": "Play music during activities.", "type": "musical" },
+  {"text": "Plan periods of daily reflection and review.", "type": "intrapersonal" },
+  {"text": "Color code learning aids to speed understanding and retention.", "type": "visual" },
+  {"text": "Conduct small group discussion.", "type": "interpersonal" },
+  {"text": "Lecture.", "type": "linguistic" },
+  {"text": "Determine if the subject matter exploits or harms anyone or anything else.", "type": "naturalist" },
+  {"text": "Conduct brainstorming sessions.", "type": "logical" },
+];
+
+module.exports = data;
