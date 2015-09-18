@@ -7,6 +7,7 @@ module.exports = React.createClass({
   render: function() {
     return(
       <div className="chooser">
+        <p>{this.props.cardsLeft} {this.props.cardsLeft == 1 ? "card" : "cards"} remaining...</p>
         <p>Do you do this activity in your class?</p>
         <Card text={this.props.card['text']} type={this.props.card['type']}/>
         <div className="buttons">

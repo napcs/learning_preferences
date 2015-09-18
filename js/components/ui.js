@@ -52,7 +52,7 @@ module.exports = React.createClass({
         </div>
       </div>
     } else {
-      result = <Chooser handleDo={this.handleDo} handleDont={this.handleDont} card={this.state.currentCard} />
+      result = <Chooser cardsLeft={this.state.cards.length} handleDo={this.handleDo} handleDont={this.handleDont} card={this.state.currentCard} />
     }
     
     return <div>{result}</div>
