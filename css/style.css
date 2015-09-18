@@ -10,6 +10,8 @@
     margin: 0px auto;
     width: 50%;
   }
+  
+  #do, #dont { float: left; width: 50%; }
 }
 
 .chooser button {
@@ -52,11 +54,14 @@
   
 .pile { clear: both; }
 
-#do, #dont { float: left; width: 50%; }
+
+header {
+  border-bottom: 1px solid #777;
+}
 
 footer {
   border-top: 1px solid #777;
-   clear: both; 
+  clear: both; 
 }
 
 .card.interpersonal { background-color: #FFFAAA; }
